@@ -9,13 +9,16 @@ public class E11PizzaCalculatorInput {
 	//https://131text.com/ns/books/published/csjava/Module1-Types-and-Names/topic-1-4-assignment.html#storing-user-input-in-variables
     public static void main(String[] args) {
         int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //given code, to scan 
         //add code to initialize pizzaSlices and numPeople from user input 
         
+        pizzaSlices = scan.nextInt();
+        numPeople = scan.nextInt();
         
         //add code to compute and print slicesPerPerson and leftoverSlices
        
-
+        slicesPerPerson = pizzaSlices / numPeople;
+        System.out.println(slicesPerPerson); 
     }
 
 }

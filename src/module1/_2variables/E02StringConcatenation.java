@@ -18,6 +18,9 @@ public class E02StringConcatenation {
 
 		String name = "Jose";
 		System.out.println("Hi " + name);
+		
+		String color = "pink";
+		System.out.println("Favorite " + color + "is ");
 	}
 }
 

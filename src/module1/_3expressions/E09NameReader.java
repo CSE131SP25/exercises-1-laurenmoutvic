@@ -13,5 +13,6 @@ public class E09NameReader {
 		String name = scan.nextLine();
 		System.out.println("Hello " + name);
 
+				
 	}
 }

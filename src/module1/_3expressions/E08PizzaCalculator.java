@@ -8,6 +8,13 @@ public class E08PizzaCalculator {
 		int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
 		//add your code
 
+	pizzaSlices = 16;
+	numPeople = 5;
+	slicesPerPerson = pizzaSlices / numPeople;
+	leftoverSlices = pizzaSlices % numPeople;
+	System.out.println(slicesPerPerson); 
+	System.out.println(leftoverSlices);
+		
 	}
 
 }
